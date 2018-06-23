@@ -1,0 +1,17 @@
+body, #black-jumbo {
+	background-color: white;
+	color: #337ab7;
+}
+
+#start {
+  margin-bottom: 20px;
+}
+
+#time {
+	color: red;
+}
+
+.btn-costumize {
+	background-color: black;
+	color: white;
+}

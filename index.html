@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Pomodoro Clock</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="black-jumbo" class="container jumbotron text-center">
+    	<h1>Pomodoro Clock</h1>
+    	<hr>
+    	<h1 id="time">25:00</h1>
+    	<div id="costumizer">
+    		<div class="btn-group btn-group-sm">
+    			<button id="plusMinutes" class="btn btn-costumize">&plus;</button>
+    			<button class="btn btn-costumize">MINUTES</button>
+    			<button id="minusMinutes" class="btn btn-costumize">&minus;</button>
+    		</div>
+    		<div class="btn-group btn-group-sm">
+    			<button id="plusSeconds" class="btn btn-costumize">&plus;</button>
+    			<button class="btn btn-costumize">SECONDS</button>
+    			<button id="minusSeconds" class="btn btn-costumize">&minus;</button>
+    		</div>
+    	</div>
+    	<hr>
+    	<div class="row">
+    		<div class="col-md-2 col-md-offset-4">
+    			<button id="start" class="btn btn-block btn-lg btn-success">Start</button>
+    		</div>
+    		<div class="col-md-2">
+    			<button id="reset" class="btn btn-block btn-lg btn-success">Reset</button>
+    		</div>
+    	</div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" charset="utf-8"></script>
+    <script src="script.js" charset="utf-8"></script>
+  </body>
+</html>
